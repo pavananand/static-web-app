@@ -1,0 +1,58 @@
+
+.list-inline-item {
+    font-size: 20px;
+}
+
+
+.login {
+    font-size: 38px;
+}
+
+.navbar {
+    padding: 1px 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black
+}
+
+.nav-link {
+    color: white !important;
+    cursor: pointer;
+    -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+  transition: all 1s;
+}
+
+.nav-link:hover {
+    color: #f91942 !important;
+    border-radius: 1.5em;
+    background: rgba(249, 25, 66, .06);
+    
+}
+.navbar-nav {
+    margin-left: 11%;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+ .account{
+    margin-left: 13%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .btn {
+      background-color: #f91942;
+      border-radius: 1.25rem !important;
+  }
+
+  .nav-item {
+      padding: 10px;
+  }
+  .card-img {
+    width: 100%;
+    opacity: 0.3;
+}
+
+

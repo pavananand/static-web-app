@@ -1,0 +1,15 @@
+.btn-primary-outline {
+    background-color: transparent;
+    color: #f91942;
+    border-color: #f91942;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.btn-primary-outline:hover {
+    background-color: #f91942;
+    color: white;
+}
+.table {
+    border-top: none;
+}
+

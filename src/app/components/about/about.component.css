@@ -1,0 +1,133 @@
+
+.list-inline-item {
+    font-size: 20px;
+}
+
+.login {
+    font-size: 38px;
+}
+
+.navbar {
+    padding: 1px 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black
+}
+
+.nav-link {
+    color: white !important;
+    cursor: pointer;
+    -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+  transition: all 1s;
+}
+
+.nav-link:hover {
+    color: #f91942 !important;
+    border-radius: 1.5em;
+    background: rgba(249, 25, 66, .06);
+    
+}
+.navbar-nav {
+    margin-left: 11%;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+ .account{
+    margin-left: 13%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .btn {
+      background-color: #f91942;
+      border-radius: 1.25rem !important;
+  }
+
+  .nav-item {
+      padding: 10px;
+  }
+
+.about {
+    padding: 3%;
+}
+.mission {
+     background-color: #f91942 !important;
+    text-align: center;
+    min-height: 190px;
+    padding: 7%;
+    color: white;
+}
+
+.vision {
+    background-color:  #000000!important;
+    text-align: center;
+    min-height: 190px;
+    padding: 7%;
+    color: white;
+}
+
+.values {
+    background-color: #f91942 !important;
+    text-align: center;
+    min-height: 190px;
+    padding: 7%;
+    color: white;
+}
+
+.card-img {
+    width: 18em;
+}
+
+.card {
+    cursor: pointer;
+}
+.previewCard img{
+    transition: filter 0.5s;
+}
+
+.previewCard p{
+    font-size: 20px;
+    font-weight: 600;
+    transition: filter 0.1s;
+}
+.previewCard .btn-hide{
+    transition: all 0.5s;
+}
+
+.previewCard:hover img {
+     -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+     filter: blur(5px);
+    /* -webkit-filter: opacity(30%); 
+    filter: opacity(60%);  */
+  }
+
+  .previewCard:hover p {
+    display: none
+   /* -webkit-filter: opacity(30%); 
+   filter: opacity(60%);  */
+ }
+
+ .previewCard:hover .btn-hide {
+    /* display: block */
+    opacity: 9;
+   /* -webkit-filter: opacity(30%); 
+   filter: opacity(60%);  */
+ }
+ .btn-hide {
+     /* display:none; */
+    opacity: 0;
+     color:#f91942
+ }
+
+ .button {
+    border-radius: 20px;
+    outline-color: #f91942;
+    border-color: #f91942;
+    background-color: transparent;
+    padding: 4% 20%;
+    font-size: 19px;
+    font-weight: 600;
+ }
